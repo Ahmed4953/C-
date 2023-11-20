@@ -1,0 +1,10 @@
+def calculate_average(grades):
+    total = sum(grades)
+    return total / len(grades)
+
+# Predefined grades
+grades = [10, 10, 10, 10, 9]
+
+# Calculate and print the average with two decimal places
+average = calculate_average(grades)
+print("Average grade: {:.2f}".format(average))
